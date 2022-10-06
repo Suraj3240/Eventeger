@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title>CodePen - Event Registration Form </title>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"><link rel="stylesheet" href="org_event_create.css">
+</head>
+<body>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Event Creation Form.</title>
+<div id="event-registration">
+<h1>Event Creation Form</h1>
+<form id="event-registration-form" method="POST" action="">
+
+<fieldset>
+<h3>Event Details</h3>
+<label for="first-name">Event Name*</label>
+<input type="text" id="first-name" name="first-name" />
+<label for="last-name">Venue*</label>
+<input type="text" id="last-name" name="last-name" />
+<label for="email">Address</label>
+<input type="email" id="email" name="email" />
+<label for="street">Allowed for</label>
+<input type="text" id="street" name="street" placeholder="School/college students" />
+<label for="unit">Number of tickets for sale</label>
+<input type="text" id="unit" name="unit" placeholder="000" />
+<label for="city">City</label>
+<input type="text" id="city" name="city" placeholder="Mumbai"/>
+<!-- <label for="state">State</label>
+<select id="states">
+<option>-- Choose your state --</option>
+</select> -->
+<!-- <label for="postal-code">Postal Code</label>
+<input type="text" id="postal-code" name="postal-code" /> -->
+</fieldset>
+<fieldset>
+<h3>Additional Information</h3>
+<label for="size">Entry for:</label>
+<div>
+<input type="checkbox" name="size" value="xsmall">Male
+<input type="checkbox" name="size" value="small">Female
+<input type="checkbox" name="size" value="medium">Others
+<!-- <input type="radio" name="size" value="large">L
+<input type="radio" name="size" value="xlarge">XL -->
+<br/>
+<!-- <input type="checkbox" name="pickup"> I will be picking up my shirt on race day. -->
+</div>
+</fieldset>
+<a href="event_booking.html">
+<button type="button">Submit Form</button></a>
+</div>
+</head>
+<body>
+</body>
+</html>
+
+<script src="org_event_create.js"></script>
+</body>
+</html>
